@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: disk-clean
-  namespace: test
+  namespace: talos-utils
 spec:
   restartPolicy: Never
   nodeName: $1
